@@ -1,0 +1,149 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 150%;
+  color: #485268;
+  background-color: #E5E5E5;
+}
+
+.page {
+  width: 595px;
+  margin: 0 auto;
+}
+
+/* #region aobut */
+.about {
+  display: flex;
+  padding: 32px 40px 24px 40px;
+  background-color: bisque;
+  color: black;
+}
+
+.about_photo {
+  width: 114px;
+  height: 114px;
+  border-radius: 50%;
+  margin-left: 50px;
+}
+
+.about_name {
+  margin: 0 0 8px 0;
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 37px;
+}
+
+.about_role {
+  margin: 0 0 8px 0;
+  font-size: 12px;
+  line-height: 15px;
+}
+
+.about_text {
+  margin: 0;
+}
+/* #endregion */
+
+.main {
+  padding: 0 40px;
+  background-color: white;
+}
+
+.contacts {
+  display: flex;
+  justify-content: space-between;
+  padding: 24px 0;
+}
+
+.contacts_link {
+  color: #485268;
+  text-decoration: none;
+}
+
+.info {
+  border-top: 1px solid #DEE2ED;
+  padding: 24px 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.info_title {
+  margin: 0;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 100%;
+  color: bisque;
+}
+
+.info_content {
+  width: 360px;
+}
+
+.job {
+  border-left: 1px dashed #DEE2ED;
+  padding-left: 8px;
+}
+
+.job_title {
+  margin: 0;
+  text-transform: capitalize;
+}
+
+.job_description {
+  margin: 0;
+  margin-top: 8px;
+}
+
+.study {
+  margin-top: 24px;
+  border-left: 1px dashed #DEE2ED;
+  padding-left: 8px;
+}
+
+.study:first-child {
+  margin: 0;
+}
+
+.study_title {
+  margin: 0;
+  text-transform: capitalize;
+}
+
+.study_description {
+  margin: 0;
+  margin-top: 8px;
+}
+
+.skills_list {
+  width: 50%;
+  margin: 0;
+  border-left: 1px dashed #DEE2ED;
+  padding-left: 8px;
+  list-style: none;
+}
+
+.skills_item {
+  margin-top: 8px;
+}
+
+.skills_item:first-child {
+  margin-top: 0;
+}
+
+.tools_list {
+  width: 50%;
+  margin: 0;
+  border-left: 1px dashed #DEE2ED;
+  padding-left: 8px;
+  list-style: none;
+}
+
+.tools_item {
+  margin-top: 8px;
+}
+
+.tools_item:first-child {
+  margin-top: 0;
+}
